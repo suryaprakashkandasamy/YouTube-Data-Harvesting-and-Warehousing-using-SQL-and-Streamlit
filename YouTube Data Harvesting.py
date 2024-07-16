@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 
 # API connection
 def api_connect():
-    api_key = 'AIzaSyDD0PFs1Ywj2ZDhUeJkxlfiPvVNrLgigs0'
+    api_key = 'API KEY'
     api_service_name = "youtube"
     api_version = "v3"
     youtube = build(api_service_name, api_version, developerKey=api_key)
